@@ -11,5 +11,7 @@ module.exports = {
      */
     ActionTypes: {
         YOUR_ACTION: "YOUR_ACTION",
+        HIDE_QUESTIONS: "HIDE_QUESTIONS",
+        SHOW_QUESTIONS: "SHOW_QUESTIONS"
     }
 };

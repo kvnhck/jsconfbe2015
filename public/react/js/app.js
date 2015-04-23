@@ -1,7 +1,11 @@
 var React            = require('react');
 var comm             = require('./comm');
 var WebAPI           = require('./utils/WebAPI');
-var YourAppComponent = require('./components/YourAppComponent');
+
+/*
+	Components
+*/
+var Root = require('./components/Root');
 
 /*
     app.js: the main file of your client application.
@@ -16,3 +20,4 @@ WebAPI.setupListeners();
 /*
     TODO: Render the UI
  */
+React.render(<Root />, document.getElementById('rootNode'));
